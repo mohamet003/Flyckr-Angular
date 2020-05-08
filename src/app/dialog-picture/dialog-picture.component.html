@@ -1,0 +1,10 @@
+
+<h1 mat-dialog-title class="center"> {{ data.photo?.title }}</h1>
+<div mat-dialog-content>
+       <div>
+           <img class="image" [src]="getPhotoUrl(data.photo)" />
+       </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close >Fermer</button>
+</div>
